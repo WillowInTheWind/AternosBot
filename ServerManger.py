@@ -1,7 +1,7 @@
 import python_aternos
-from python_aternos.python_aternos import Client
+from python_aternos import Client as AternosClient
 
 
 # methods for the bot to run
 def InitializeClient(UserName, Password):
-    client = Client()
+    Aternosclient = AternosClient()
